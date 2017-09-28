@@ -1,0 +1,10 @@
+{
+	"name": "tradeanalsysis",
+	"version": "1.0.0",
+	"dependencies": {
+		"angular": "1.6.3",
+		"angular-material":"1.1.4",
+		"highcharts":"5.0.0",
+		"highcharts-ng":"0.0.11"	
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"author": "Ed Kwan",
+	"version": "1.0.0",
+	"devDependencies": {
+		"gulp": "3.9.0",
+		"gulp-concat": "2.6.0",
+		"gulp-minify-html": "1.0.4",
+		"gulp-less": "3.0.5",
+		"gulp-git": "1.6.0",
+		"gulp-bower": "0.0.10",
+		"gulp-zip": "3.2.0"
+	}
+}
