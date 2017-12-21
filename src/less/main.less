@@ -1,0 +1,39 @@
+@import '../../vendor/bootstrap/less/bootstrap.less';
+@import 'variables.less';
+
+body, html{
+	height: 100%;
+	margin:0;
+	padding:0;
+	background: #fefefc;
+}
+.menu-content {
+	height:60px;
+}
+.menu-img {
+	float:left;
+}
+.menu-row {
+	background: -moz-linear-gradient(left, #b8e1fc 0%, #eff3f9 0%, #90bae4 52%, #4192e2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #b8e1fc 0%,#eff3f9 0%,#90bae4 52%,#4192e2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #b8e1fc 0%,#eff3f9 0%,#90bae4 52%,#4192e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+	
+.menu-items {
+	height:60px;
+	float:left;
+	position: absolute;
+/*	max-width: 400px!important;
+	min-width: 400px!important;
+*/
+}
+.menu-login {
+	height:60px;
+	text-align:right;
+	/*background: #4192e2;*/
+}
+.main-content {
+	height: calc(~'100% - 60px')!important;
+	overflow: auto;
+	background: #efefef;
+}

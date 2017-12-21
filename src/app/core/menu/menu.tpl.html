@@ -1,0 +1,13 @@
+
+<div ng-controller="menuController as menu">
+	<div class="menu-img"><img src="assets/images/tradeAnalysis.jpg" /></div>
+	<div class="menu-row" layout="row" layout-wrap >
+	 	<div flex class="menu-items" >
+		 	<md-button class="mt-15" ng-click="menu.selectModule('portfolio')">My Portfolio</md-button>
+			<md-button class="mt-15" ng-click="menu.selectModule('gainloss')">Gains/Losses</md-button>
+			<md-button class="mt-15" ng-click="menu.selectModule('research')">Research</md-button>
+		</div>
+ 		<span flex></span>
+		<div class="menu-login" ng-include="'core/menu/menu.login.tpl.html'"></div>
+	</div>
+</div>

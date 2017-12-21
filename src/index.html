@@ -1,11 +1,22 @@
-<html ng-app="tradeAnalysis">
+<html ng-app="tradeAnalysis" ng-controller="tradeAnalysisController as vm">
 <head>
 	<title>Trade Analysis</title>
+	<base href="/tradeAnalysis/">
+	<link rel="shortcut icon" href="assets/favicon.ico">
 	<!-- inject:css -->
 	<!-- endinject -->	
 </head>
-<body layout="column">
-	Trade Analysis
+<body>
+	<div layout="column" id="trade-analysis-menu" class="menu-content">
+		<div ng-include="'core/menu/menu.tpl.html'"></div>
+	</div>
+ 	<div layout="column" style="height:100px" ui-view="login">
+	login something
+	</div>
+	<div layout="column" id="trade-analysis-content" class="main-content" ui-view="main">
+		<center><img src="assets/images/mainpage.jpg"/></center>
+	</div>
+	
 	<!-- inject:js -->
 	<!-- endinject -->	
 </body>
